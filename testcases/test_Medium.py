@@ -13,6 +13,7 @@ class MediumTests(unittest.TestCase):
 
     def test_search_for_user(self):
         self.home_page.open()
+        search_page = self.home_page.search_for("christian vasquez")
 
     def tearDown(self):
         self.driver.quit()
