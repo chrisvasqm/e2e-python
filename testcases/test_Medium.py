@@ -2,17 +2,17 @@ import unittest
 
 from selenium import webdriver
 
-import constants
+from pages.home_page import HomePage
 
 
 class MediumTests(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.get(constants.base_url)
+        self.home_page = HomePage(self.driver)
 
     def test_search_for_user(self):
-        pass
+        self.home_page.open()
 
     def tearDown(self):
         self.driver.quit()
