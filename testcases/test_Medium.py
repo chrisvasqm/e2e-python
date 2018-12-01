@@ -9,10 +9,11 @@ class MediumTests(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
+
         self.home_page = HomePage(self.driver)
+        self.home_page.open()
 
     def test_search_for_user(self):
-        self.home_page.open()
         search_page = self.home_page.search_for("christian vasquez")
         search_page.filter_by_people()
         profile_page = search_page.select_first_result()
