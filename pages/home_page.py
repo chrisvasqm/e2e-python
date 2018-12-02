@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from lib.pagefactory_support import callable_find_by as find_by
+from libraries.pagefactory_support import callable_find_by as find_by
 from pages.page import Page
 from pages.search_page import SearchPage
 
