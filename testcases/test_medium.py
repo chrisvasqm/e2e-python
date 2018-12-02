@@ -1,6 +1,7 @@
 import unittest
 
 import allure
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 
 from pages.home_page import HomePage
@@ -21,9 +22,10 @@ class MediumTests(unittest.TestCase):
         search_page.filter_by_people()
         profile_page = search_page.select_first_result()
 
-        assert "@christianv07" in profile_page.url
+        assert "@christianv07s" in profile_page.url
 
     def tearDown(self):
+        allure.attach(self.driver.get_screenshot_as_png(), name='screenshot', attachment_type=AttachmentType.PNG)
         self.driver.quit()
 
 
