@@ -1,0 +1,87 @@
+{
+  "name": "test_search_for_user",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Set up",
+      "status": "passed",
+      "start": 1543786030674,
+      "stop": 1543786034791
+    },
+    {
+      "name": "Search for user",
+      "status": "passed",
+      "start": 1543786034791,
+      "stop": 1543786038798
+    },
+    {
+      "name": "Tear down",
+      "status": "passed",
+      "start": 1543786038798,
+      "stop": 1543786038890
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "dbbbe0e0-128f-4b05-8b7a-dc1c9b004568-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "28a11913-9c16-488d-a208-46d0209e66f5-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "8fc4e407-a1dd-447b-804b-9bac20259034-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1543786030663,
+  "stop": 1543786038891,
+  "uuid": "6f9fdf6c-bf4e-402a-9256-427eaf8fdcaa",
+  "historyId": "30a49ba658eb78fbc3305f15090e310e",
+  "fullName": "testcases.test_Medium.MediumTests#test_search_for_user",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_Medium"
+    },
+    {
+      "name": "subSuite",
+      "value": "MediumTests"
+    },
+    {
+      "name": "host",
+      "value": "Christians-MacBook-Pro-2.local"
+    },
+    {
+      "name": "thread",
+      "value": "10594-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_Medium"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://medium.com",
+      "name": "Medium Tests"
+    }
+  ]
+}
